@@ -1,0 +1,22 @@
+2025-01-28 02:03:22,951 - TestRunner - [INFO] - Starting test suite
+2025-01-28 02:03:22,952 - ModelTester - [WARNING] - Model file not found: weights\teacher_model.pth
+2025-01-28 02:03:22,953 - ModelTester - [WARNING] - Model file not found: weights\learner_model.pth
+2025-01-28 02:03:23,059 - TestRunner - [INFO] - Starting performance and resource monitoring
+2025-01-28 02:03:23,060 - TestRunner - [INFO] - Running model tests
+2025-01-28 02:03:23,060 - TestRunner - [INFO] - Collecting metrics
+2025-01-28 02:03:23,191 - TestRunner - [INFO] - Generating test reports
+2025-01-28 02:03:23,196 - MetricsReporter - [ERROR] - Failed to generate report: 'MetricsReporter' object has no attribute '_summarize_performance'
+2025-01-28 02:03:23,196 - TestRunner - [ERROR] - Test execution failed: 'MetricsReporter' object has no attribute '_summarize_performance'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\run_tests.py", line 102, in run_tests
+    report_path = metrics_reporter.generate_report(metrics)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\metrics_reporter.py", line 31, in generate_report
+    summary = self._generate_summary(metrics)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\metrics_reporter.py", line 57, in _generate_summary
+    'performance_summary': self._summarize_performance(metrics),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MetricsReporter' object has no attribute '_summarize_performance'
+2025-01-28 02:03:23,200 - TestRunner - [ERROR] - Test suite failed: 'MetricsReporter' object has no attribute '_summarize_performance'
+2025-01-28 02:03:23,201 - TestRunner - [INFO] - Test execution completed

@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "performance": {
+      "total_frames": 12082,
+      "average_fps": 73.84650520520452,
+      "processing_time": 163.60963821411133,
+      "time_per_frame": 0.0406180829727188
+    },
+    "detection_rates": {
+      "face_detection_rate": 0.7593941400430392,
+      "pose_detection_rate": 0.8758483694752525
+    },
+    "emotion_analysis": {
+      "emotion_distribution": {
+        "neutral": 0.8341144414168937,
+        "happy": 0.16588555858310627
+      },
+      "most_frequent_emotion": "neutral"
+    },
+    "engagement_analysis": {
+      "average_engagement": 0.8176212547591458,
+      "max_engagement": 1.0,
+      "min_engagement": 0.0,
+      "engagement_stability": 0.34443796717464276
+    }
+  },
+  "recommendations": [],
+  "analysis_timestamp": "2025-02-12 02:24:46",
+  "config_used": {
+    "output_dir": "analysis_results",
+    "debug": true,
+    "save_debug": true,
+    "frame_sample_rate": 3,
+    "batch_size": 4,
+    "target_width": 640,
+    "result_validity_frames": 5,
+    "emotion_config": {
+      "debug_dir": "analysis_results/emotion_debug"
+    },
+    "thresholds": {
+      "min_fps": 15,
+      "min_face_detection": 0.4,
+      "min_pose_detection": 0.3,
+      "min_engagement": 0.5,
+      "min_clarity": 100,
+      "min_brightness": 80,
+      "min_contrast": 20
+    }
+  }
+}

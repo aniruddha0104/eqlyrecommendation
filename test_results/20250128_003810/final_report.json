@@ -1,0 +1,17 @@
+{
+  "test_duration": 30.009905338287354,
+  "frames_processed": 812,
+  "average_fps": 27.05773280011087,
+  "processing_stats": {
+    "mean_time": 0.03371392093608198,
+    "std_time": 0.00026639119562198675,
+    "min_time": 0.03339849999611033,
+    "max_time": 0.034911200003989507
+  },
+  "resource_usage": {
+    "mean_cpu": 7.915147783251232,
+    "mean_memory": 80.40911330049262,
+    "mean_gpu": null
+  },
+  "error_count": 0
+}

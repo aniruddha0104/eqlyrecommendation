@@ -1,0 +1,33 @@
+{
+    "video_info": {
+        "duration_seconds": 402.73,
+        "total_frames": 12082,
+        "processed_frames": 1208,
+        "fps": 30,
+        "processing_time": 723.47
+    },
+    "attention_analysis": {
+        "average_score": 29.2,
+        "stability": 83.3,
+        "peak_attention": 73.4
+    },
+    "emotional_analysis": {
+        "dominant_emotion": "sad",
+        "distribution": {
+            "sad": 49.4,
+            "fear": 15.9,
+            "neutral": 10.6,
+            "angry": 6.7,
+            "surprise": 7.6,
+            "happy": 9.4,
+            "disgust": 0.1,
+            "unknown": 0.2
+        },
+        "emotional_range": 8
+    },
+    "engagement_metrics": {
+        "sustained_attention": 0.2,
+        "emotional_engagement": 114.3,
+        "overall_engagement": 57.3
+    }
+}

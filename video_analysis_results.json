@@ -1,0 +1,30 @@
+{
+    "video_info": {
+        "duration": 402.73333333333335,
+        "fps": 30,
+        "total_frames": 12082,
+        "analyzed_frames": 1209
+    },
+    "attention_analysis": {
+        "average_score": 32.7,
+        "stability": 83.2,
+        "peak_attention": 67.8
+    },
+    "emotion_analysis": {
+        "dominant_emotion": "sad",
+        "emotion_distribution": {
+            "sad": 662,
+            "fear": 181,
+            "neutral": 95,
+            "angry": 73,
+            "surprise": 95,
+            "happy": 102,
+            "disgust": 1
+        }
+    },
+    "content_analysis": {
+        "total_segments": 362,
+        "code_segments": 0,
+        "code_complexity": 0
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "model_metrics": {
+    "teacher_model": {
+      "error": "Model not loaded",
+      "scores": {
+        "accuracy": 0.8282171821740706,
+        "precision": 0.8659840025087986,
+        "recall": 0.9026278942174524,
+        "f1_score": 0.8004579521407896
+      }
+    },
+    "learner_model": {
+      "error": "Model not loaded",
+      "scores": {
+        "accuracy": 0.915470307184981,
+        "precision": 0.9356678267148729,
+        "recall": 0.8281835822828358,
+        "f1_score": 0.9145647991462711
+      }
+    },
+    "integrated_test": {
+      "integration_score": 0.899196398372763,
+      "pipeline_latency": 0.03039082590514145,
+      "knowledge_transfer_rate": 0.8288095338212502
+    }
+  },
+  "performance": {
+    "fps": 22.72811837019507,
+    "cpu_usage": 83.84737609329447,
+    "memory_usage": 74.26384839650147,
+    "latency": 48.64843837971942,
+    "throughput": 21.14181325006159
+  },
+  "resources": {
+    "system": {
+      "cpu": {
+        "current": 78.6,
+        "average": 89.3,
+        "peak": 100.0,
+        "variability": 10.700000000000003
+      },
+      "memory": {
+        "current": 76.0,
+        "average": 74.85,
+        "peak": 76.0,
+        "trend": "increasing"
+      }
+    },
+    "process": {
+      "cpu_usage": {
+        "current": 1.3,
+        "average": 0.65,
+        "peak": 1.3
+      },
+      "memory_usage": {
+        "current": 2.134248953820775,
+        "average": 2.132419253646039,
+        "peak": 2.134248953820775
+      }
+    }
+  }
+}

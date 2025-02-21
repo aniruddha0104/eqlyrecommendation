@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "performance": {
+      "average_fps": 13.054025244044961,
+      "max_processing_time": 0.4375035762786865
+    },
+    "features": {
+      "face_detection_rate": 0.34,
+      "pose_detection_rate": 0.0,
+      "average_engagement": 0.0
+    },
+    "quality": {
+      "average_clarity": 426.09364565972226,
+      "average_brightness": 44.92976588541667,
+      "average_contrast": 52.41050864929356
+    }
+  },
+  "recommendations": [
+    "Improve body posture visibility"
+  ]
+}

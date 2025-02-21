@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "performance": {
+      "average_fps": 12.76532828589893,
+      "max_processing_time": 0.41971421241760254
+    },
+    "features": {
+      "face_detection_rate": 0.37333333333333335,
+      "pose_detection_rate": 0.0,
+      "average_engagement": 0.0
+    },
+    "quality": {
+      "average_clarity": 393.74937309027774,
+      "average_brightness": 44.88281154513889,
+      "average_contrast": 52.318050518988976
+    }
+  },
+  "recommendations": [
+    "Ensure full body visibility in frame"
+  ]
+}

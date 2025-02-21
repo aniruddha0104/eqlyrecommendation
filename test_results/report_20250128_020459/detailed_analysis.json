@@ -1,0 +1,47 @@
+{
+  "performance_analysis": {
+    "fps_analysis": {
+      "current": 0.0,
+      "target": 30,
+      "achievement": 0.0,
+      "status": "needs_improvement"
+    },
+    "latency_analysis": {
+      "current": NaN,
+      "status": "needs_improvement"
+    }
+  },
+  "resource_analysis": {
+    "cpu": {
+      "usage": 0,
+      "status": "good"
+    },
+    "memory": {
+      "usage": 0,
+      "status": "good"
+    },
+    "gpu": null
+  },
+  "model_analysis": {
+    "teacher_model": {
+      "average_score": 0.88357704094437,
+      "status": "good",
+      "metrics": {
+        "accuracy": 0.9423953601977828,
+        "precision": 0.803330853903927,
+        "recall": 0.868454116205442,
+        "f1_score": 0.920127833470328
+      }
+    },
+    "learner_model": {
+      "average_score": 0.8674485402705863,
+      "status": "good",
+      "metrics": {
+        "accuracy": 0.837727458982662,
+        "precision": 0.9317361759301223,
+        "recall": 0.8517890169644832,
+        "f1_score": 0.8485415092050775
+      }
+    }
+  }
+}

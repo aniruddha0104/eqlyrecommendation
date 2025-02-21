@@ -1,0 +1,11 @@
+{
+  "total_frames": 100,
+  "average_processing_time": 0.02688955783843994,
+  "max_processing_time": 0.08199453353881836,
+  "average_features": {
+    "keypoints": 0.0,
+    "faces": 0.0,
+    "edges": 0.0,
+    "contours": 0.0
+  }
+}

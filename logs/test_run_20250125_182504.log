@@ -1,0 +1,12 @@
+2025-01-25 18:25:04,818 - RobustTestSystem - [INFO] - Logging initialized. Log file: C:\Users\RH\PycharmProjects\eqly_assessment\logs\test_run_20250125_182504.log
+2025-01-25 18:25:04,828 - RobustTestSystem - [DEBUG] - GUI support check failed: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\highgui\src\window.cpp:1284: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvNamedWindow'
+
+2025-01-25 18:25:04,831 - RobustTestSystem - [INFO] - Environment capabilities detected: {'gui_support': False, 'cuda_support': False, 'system_memory': 7.922527313232422, 'cpu_count': 4}
+2025-01-25 18:25:04,832 - RobustTestSystem - [DEBUG] - Processing queues initialized with buffer size: 60
+2025-01-25 18:25:04,834 - RobustTestSystem - [INFO] - Storage initialized at test_results\20250125_182504
+2025-01-25 18:25:04,834 - RobustTestSystem - [ERROR] - Initialization failed: 'RobustTestSystem' object has no attribute 'setup_performance_tracking'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\comprehensive_test.py", line 68, in __init__
+    self.setup_performance_tracking()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RobustTestSystem' object has no attribute 'setup_performance_tracking'

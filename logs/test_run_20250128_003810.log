@@ -1,0 +1,3 @@
+2025-01-28 00:38:10,058 - RobustTestSystem - [INFO] - Environment capabilities: {'gui_support': False, 'cuda_support': False, 'system_memory': 7.922527313232422, 'cpu_count': 4}
+2025-01-28 00:38:10,061 - RobustTestSystem - [INFO] - Starting test suite (duration: 30s)
+2025-01-28 00:38:40,075 - RobustTestSystem - [INFO] - Cleanup completed successfully

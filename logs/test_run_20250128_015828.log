@@ -1,0 +1,9 @@
+2025-01-28 01:58:28,154 - TestRunner - [INFO] - Starting test suite
+2025-01-28 01:58:28,155 - TestRunner - [ERROR] - Test execution failed: ModelTester.__init__() missing 1 required positional argument: 'config'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\run_tests.py", line 37, in run_tests
+    model_tester = ModelTester(config['model'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ModelTester.__init__() missing 1 required positional argument: 'config'
+2025-01-28 01:58:28,157 - TestRunner - [ERROR] - Test suite failed: ModelTester.__init__() missing 1 required positional argument: 'config'
+2025-01-28 01:58:28,159 - TestRunner - [INFO] - Test execution completed

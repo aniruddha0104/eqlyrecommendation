@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "performance": {
+      "average_fps": 0.7631863900329177,
+      "max_processing_time": 2.9649999141693115
+    },
+    "features": {
+      "face_detection_rate": 0.5333333333333333,
+      "pose_detection_rate": 0.0,
+      "average_engagement": 0.0
+    },
+    "quality": {
+      "average_clarity": 377.7121375,
+      "average_brightness": 51.45078003472222,
+      "average_contrast": 50.436237107695085
+    }
+  },
+  "recommendations": [
+    "Consider using a higher performance camera",
+    "Improve body posture visibility"
+  ]
+}

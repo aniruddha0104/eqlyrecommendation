@@ -1,0 +1,25 @@
+{
+  "timestamp": "20250131-013754",
+  "summary": {
+    "performance": {
+      "average_fps": 7.908602439926821,
+      "max_processing_time": 0.5720827579498291
+    },
+    "features": {
+      "face_detection_rate": 0.07333333333333333,
+      "pose_detection_rate": 0.0,
+      "average_engagement": 0.0
+    },
+    "quality": {
+      "average_clarity": 336.1653331163194,
+      "average_brightness": 35.44428103298611,
+      "average_contrast": 54.619697551947226
+    }
+  },
+  "recommendations": [
+    "Optimize processing pipeline for better frame rates",
+    "Improve lighting conditions and face visibility",
+    "Ensure full body visibility in frame",
+    "Increase ambient lighting or adjust camera settings"
+  ]
+}

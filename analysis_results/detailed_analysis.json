@@ -1,0 +1,22 @@
+{
+    "pose_analysis": {
+        "average_confidence": 0.7912701696317751,
+        "average_nervousness": 0.44283848479036064
+    },
+    "emotion_analysis": {
+        "emotion_distribution": {
+            "sad": 1303,
+            "fear": 517,
+            "neutral": 313,
+            "happy": 107,
+            "surprise": 31,
+            "angry": 141,
+            "disgust": 5
+        },
+        "dominant_emotion": "sad"
+    },
+    "voice_analysis": {
+        "average_confidence": 0.8520752031914884,
+        "average_speech_rate": 125.30072771143841
+    }
+}

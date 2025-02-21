@@ -1,0 +1,66 @@
+{
+  "performance": [],
+  "accuracy": [],
+  "timing": [
+    {
+      "timestamp": 1737808572.6663961,
+      "processing_time": 0.10048419999657199
+    }
+  ],
+  "resource_usage": [
+    {
+      "timestamp": 1737808572.044956,
+      "cpu_percent": 0.0,
+      "memory_percent": 70.7,
+      "queue_sizes": {
+        "frame_queue": 0,
+        "results_queue": 0
+      }
+    },
+    {
+      "timestamp": 1737808572.1480093,
+      "cpu_percent": 20.8,
+      "memory_percent": 70.7,
+      "queue_sizes": {
+        "frame_queue": 0,
+        "results_queue": 0
+      }
+    },
+    {
+      "timestamp": 1737808572.2516193,
+      "cpu_percent": 0.0,
+      "memory_percent": 70.7,
+      "queue_sizes": {
+        "frame_queue": 0,
+        "results_queue": 0
+      }
+    },
+    {
+      "timestamp": 1737808572.3541725,
+      "cpu_percent": 12.5,
+      "memory_percent": 70.7,
+      "queue_sizes": {
+        "frame_queue": 0,
+        "results_queue": 0
+      }
+    },
+    {
+      "timestamp": 1737808572.4567802,
+      "cpu_percent": 0.0,
+      "memory_percent": 70.7,
+      "queue_sizes": {
+        "frame_queue": 0,
+        "results_queue": 0
+      }
+    },
+    {
+      "timestamp": 1737808572.55977,
+      "cpu_percent": 3.8,
+      "memory_percent": 70.7,
+      "queue_sizes": {
+        "frame_queue": 0,
+        "results_queue": 0
+      }
+    }
+  ]
+}

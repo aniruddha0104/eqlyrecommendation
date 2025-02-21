@@ -1,0 +1,3 @@
+2025-01-27 23:34:29,268 - RobustTestSystem - [DEBUG] - GUI support check failed: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\highgui\src\window.cpp:1284: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvNamedWindow'
+
+2025-01-27 23:34:29,277 - RobustTestSystem - [INFO] - Environment capabilities: {'gui_support': False, 'cuda_support': False, 'system_memory': 7.922527313232422, 'cpu_count': 4}

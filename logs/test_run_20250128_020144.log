@@ -1,0 +1,26 @@
+2025-01-28 02:01:44,927 - TestRunner - [INFO] - Starting test suite
+2025-01-28 02:01:44,928 - ModelTester - [WARNING] - Model file not found: weights\teacher_model.pth
+2025-01-28 02:01:44,929 - ModelTester - [WARNING] - Model file not found: weights\learner_model.pth
+2025-01-28 02:01:44,930 - TestRunner - [INFO] - Starting performance and resource monitoring
+2025-01-28 02:01:44,931 - TestRunner - [INFO] - Running model tests
+2025-01-28 02:01:44,931 - TestRunner - [INFO] - Collecting metrics
+2025-01-28 02:01:45,095 - TestRunner - [ERROR] - Test execution failed: zero-size array to reduction operation maximum which has no identity
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\run_tests.py", line 92, in run_tests
+    resource_metrics = resource_monitor.analyze_resource_usage()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\resource_monitor.py", line 94, in analyze_resource_usage
+    'system': self._analyze_system_metrics(),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\resource_monitor.py", line 108, in _analyze_system_metrics
+    'peak': np.max(self.metrics['system']['cpu_usage']),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\numpy\core\fromnumeric.py", line 2810, in max
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\numpy\core\fromnumeric.py", line 88, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation maximum which has no identity
+2025-01-28 02:01:45,100 - TestRunner - [ERROR] - Test suite failed: zero-size array to reduction operation maximum which has no identity
+2025-01-28 02:01:45,100 - TestRunner - [INFO] - Test execution completed

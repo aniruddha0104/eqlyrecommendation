@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "performance": {
+      "average_fps": 0.3907032096446255,
+      "max_processing_time": 3.6389172077178955
+    },
+    "features": {
+      "face_detection_rate": 0.006666666666666667,
+      "pose_detection_rate": 0.0
+    },
+    "teaching_metrics": {
+      "average_engagement": 0.1333333333333333,
+      "average_clarity": 0.004422738552093506,
+      "average_effectiveness": 0.0
+    },
+    "quality": {
+      "average_clarity": 362.7972927951389,
+      "average_brightness": 16.537365711805553,
+      "average_contrast": 58.53673015329116
+    }
+  },
+  "recommendations": [
+    "Consider using a higher performance camera",
+    "Improve face visibility and lighting",
+    "Increase student engagement through more interactive techniques",
+    "Improve lighting conditions"
+  ]
+}

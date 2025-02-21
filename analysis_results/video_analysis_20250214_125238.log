@@ -1,0 +1,9 @@
+2025-02-14 12:52:38,545 - ERROR - [__main__] - Unexpected error during analysis
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 508, in main
+    teaching_analyzer = TeachingAnalyzer(config.get('analysis_config'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 49, in __init__
+    self._init_voice_analyzer()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TeachingAnalyzer' object has no attribute '_init_voice_analyzer'

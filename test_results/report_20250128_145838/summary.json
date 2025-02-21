@@ -1,0 +1,20 @@
+{
+  "performance_summary": {
+    "fps": 22.296474034185184,
+    "average_latency": 0,
+    "throughput": 18.284494642619176
+  },
+  "resource_summary": {
+    "cpu_usage": 0,
+    "memory_usage": 0,
+    "gpu_usage": 0
+  },
+  "model_summary": {
+    "teacher_model": {
+      "average_score": 0.8994532074373915
+    },
+    "learner_model": {
+      "average_score": 0.8894544770187358
+    }
+  }
+}

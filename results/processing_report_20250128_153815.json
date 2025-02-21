@@ -1,0 +1,14 @@
+{
+  "spatial_features": {
+    "average_keypoints": 0,
+    "face_detections": 0
+  },
+  "temporal_features": {
+    "average_motion": 0
+  },
+  "processing_metrics": {
+    "average_processing_time": 0,
+    "max_processing_time": 0,
+    "processed_frames": 0
+  }
+}

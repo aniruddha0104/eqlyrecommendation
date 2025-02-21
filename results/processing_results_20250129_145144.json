@@ -1,0 +1,10 @@
+{
+  "total_frames": 150,
+  "average_processing_time": 0.325724409421285,
+  "max_processing_time": 1.2072200775146484,
+  "average_keypoints": 25.813333333333333,
+  "average_faces": 0.06,
+  "max_keypoints": 38,
+  "max_faces": 1,
+  "total_features": 3872
+}

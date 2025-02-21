@@ -1,0 +1,340 @@
+2025-02-06 16:30:10,318 - root - ERROR - Analysis failed: Object of type int32 is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\optimized_processor.py", line 365, in main
+    json.dump(results, f, indent=2)
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\RH\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int32 is not JSON serializable
+2025-02-07 00:05:49,738 - OptimizedProcessor - ERROR - Frame processing failed: Graph has errors: 
+; Packet timestamp mismatch on a calculator receiving from stream "image". Current minimum expected timestamp is 2199979 but received 2199978. Are you using a custom InputStreamHandler? Note that some InputStreamHandlers allow timestamps that are not strictly monotonically increasing. See for example the ImmediateInputStreamHandler class comment.
+2025-02-07 00:05:49,796 - OptimizedProcessor - ERROR - Frame processing failed: CalculatorGraph::Run() failed: 
+; Packet timestamp mismatch on a calculator receiving from stream "image". Current minimum expected timestamp is 2199979 but received 2199978. Are you using a custom InputStreamHandler? Note that some InputStreamHandlers allow timestamps that are not strictly monotonically increasing. See for example the ImmediateInputStreamHandler class comment.
+2025-02-07 00:05:49,802 - OptimizedProcessor - ERROR - Frame processing failed: Graph has errors: 
+; Packet timestamp mismatch on a calculator receiving from stream "image". Current minimum expected timestamp is 2199979 but received 2199978. Are you using a custom InputStreamHandler? Note that some InputStreamHandlers allow timestamps that are not strictly monotonically increasing. See for example the ImmediateInputStreamHandler class comment.
+2025-02-07 00:05:49,856 - OptimizedProcessor - ERROR - Frame processing failed: Graph has errors: 
+; Packet timestamp mismatch on a calculator receiving from stream "image". Current minimum expected timestamp is 2199979 but received 2199978. Are you using a custom InputStreamHandler? Note that some InputStreamHandlers allow timestamps that are not strictly monotonically increasing. See for example the ImmediateInputStreamHandler class comment.
+2025-02-07 00:47:06,299 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 00:47:06,301 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 00:47:06,303 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 00:47:06,304 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 00:47:06,305 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 00:47:06,307 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 00:47:06,308 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 00:47:06,309 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 00:47:06,311 - OptimizedProcessor - ERROR - Video analysis failed: 'OptimizedProcessor' object has no attribute 'update_metrics'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 185, in analyze_video
+    self.update_metrics(metrics, result, processing_time)
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedProcessor' object has no attribute 'update_metrics'
+2025-02-07 00:47:06,321 - root - ERROR - Analysis failed: 'OptimizedProcessor' object has no attribute 'update_metrics'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 246, in main
+    results = processor.analyze_video('test_data/test_video.mp4')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 185, in analyze_video
+    self.update_metrics(metrics, result, processing_time)
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedProcessor' object has no attribute 'update_metrics'
+2025-02-07 01:01:17,937 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 01:01:17,938 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 01:01:17,941 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 01:01:17,942 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 01:01:17,943 - OptimizedProcessor - ERROR - Frame processing failed: 'OptimizedProcessor' object has no attribute 'detect_faces'
+2025-02-07 01:01:17,957 - OptimizedProcessor - ERROR - Video analysis failed: 'OptimizedProcessor' object has no attribute 'update_metrics'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 170, in analyze_video
+    self.update_metrics(metrics, result, processing_time)
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedProcessor' object has no attribute 'update_metrics'
+2025-02-07 01:01:17,983 - root - ERROR - Analysis failed: 'OptimizedProcessor' object has no attribute 'update_metrics'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 237, in main
+    results = processor.analyze_video('test_data/test_video.mp4')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 170, in analyze_video
+    self.update_metrics(metrics, result, processing_time)
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedProcessor' object has no attribute 'update_metrics'
+2025-02-09 12:36:06,594 - ERROR - Video analysis failed: 'results'
+2025-02-09 12:36:06,602 - ERROR - Processing failed: 'results'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 339, in run
+    results = self.analyze_video(video_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 278, in analyze_video
+    'recommendations': self.generate_recommendations(summary),
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 322, in generate_recommendations
+    avg_clarity = np.mean([r['quality']['clarity'] for r in summary['results']])
+                                                            ~~~~~~~^^^^^^^^^^^
+KeyError: 'results'
+2025-02-10 15:38:40,449 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-10 15:38:40,456 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 434, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 140, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-10 15:40:48,389 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-10 15:40:48,390 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 434, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 140, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-10 15:44:12,192 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-10 15:44:12,193 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 434, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 140, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-10 18:32:58,356 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-10 18:32:58,357 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 434, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 140, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-10 18:34:29,354 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-10 18:34:29,355 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 437, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 142, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 34, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 16:46:59,742 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-11 16:46:59,744 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 437, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 142, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 34, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 17:11:04,794 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-11 17:11:04,795 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 437, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 142, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 34, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 17:21:13,161 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-11 17:21:13,163 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 437, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 142, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 34, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 17:22:20,155 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-11 17:22:20,156 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 437, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 142, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 34, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 18:08:24,442 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 18:08:24,450 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 429, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 139, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 18:13:58,268 - EmotionDetector - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 18:13:58,273 - root - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 429, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 139, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 18:47:08,621 - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-11 18:47:08,623 - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 429, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 139, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-11 18:55:02,153 - ERROR - Emotion detector initialization failed: No module named 'moviepy.editor'
+2025-02-11 18:55:02,154 - ERROR - Processing failed: No module named 'moviepy.editor'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 428, in main
+    processor = EnhancedProcessor(config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 138, in __init__
+    self.emotion_detector = EmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 32, in __init__
+    from fer import FER
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\__init__.py", line 27, in <module>
+    from .classes import Video
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\venv\Lib\site-packages\fer\classes.py", line 7, in <module>
+    from moviepy.editor import *
+ModuleNotFoundError: No module named 'moviepy.editor'
+2025-02-12 00:54:58,684 - ERROR - Processing failed: 'EnhancedProcessor' object has no attribute 'analyze_video'
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 628, in run_analysis
+    results = processor.analyze_video(video_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EnhancedProcessor' object has no attribute 'analyze_video'
+2025-02-12 01:17:08,108 - INFO - Results saved to analysis_results
+2025-02-12 01:31:08,130 - INFO - Results saved to analysis_results
+2025-02-12 01:33:09,375 - ERROR - Processing failed: name 'deque' is not defined
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 585, in run_analysis
+    processor = EnhancedProcessor(self.config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 224, in __init__
+    self.emotion_detector = SimplifiedEmotionDetector(config.get('emotion_config'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\components\enhanced_processor.py", line 33, in __init__
+    self.last_emotions = deque(maxlen=5)
+                         ^^^^^
+NameError: name 'deque' is not defined
+2025-02-12 01:39:06,776 - INFO - Results saved to analysis_results
+2025-02-12 02:02:00,447 - INFO - Results saved to analysis_results
+2025-02-12 02:21:50,693 - INFO - Results saved to analysis_results
+2025-02-12 02:24:46,554 - INFO - Results saved to analysis_results

@@ -1,0 +1,11 @@
+2025-01-28 02:04:59,082 - TestRunner - [INFO] - Starting test suite
+2025-01-28 02:04:59,083 - ModelTester - [WARNING] - Model file not found: weights\teacher_model.pth
+2025-01-28 02:04:59,084 - ModelTester - [WARNING] - Model file not found: weights\learner_model.pth
+2025-01-28 02:04:59,191 - TestRunner - [INFO] - Starting performance and resource monitoring
+2025-01-28 02:04:59,191 - TestRunner - [INFO] - Running model tests
+2025-01-28 02:04:59,192 - TestRunner - [INFO] - Collecting metrics
+2025-01-28 02:04:59,301 - TestRunner - [INFO] - Generating test reports
+2025-01-28 02:04:59,308 - TestRunner - [INFO] - Test report generated at: test_results\report_20250128_020459
+2025-01-28 02:04:59,310 - TestRunner - [INFO] - Test suite completed successfully
+2025-01-28 02:04:59,310 - TestRunner - [INFO] - Report available at: test_results\report_20250128_020459
+2025-01-28 02:04:59,311 - TestRunner - [INFO] - Test execution completed

@@ -1,0 +1,10 @@
+2025-01-28 02:07:14,895 - TestRunner - [ERROR] - Test execution failed: name 'DEFAULT_CONFIG' is not defined
+Traceback (most recent call last):
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\run_tests.py", line 130, in main
+    results = run_tests()
+              ^^^^^^^^^^^
+  File "C:\Users\RH\PycharmProjects\eqly_assessment\test\run_tests.py", line 51, in run_tests
+    config = DEFAULT_CONFIG
+             ^^^^^^^^^^^^^^
+NameError: name 'DEFAULT_CONFIG' is not defined
+2025-01-28 02:07:14,896 - TestRunner - [INFO] - Test execution completed

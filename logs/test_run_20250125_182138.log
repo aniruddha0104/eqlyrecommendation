@@ -1,0 +1,2 @@
+2025-01-25 18:21:38,623 - RobustTestSystem - [INFO] - Logging initialized. Log file: logs\test_run_20250125_182138.log
+2025-01-25 18:21:38,624 - RobustTestSystem - [ERROR] - Environment detection failed: 'RobustTestSystem' object has no attribute '_check_gui_support'

@@ -1,0 +1,20 @@
+{
+  "performance_summary": {
+    "fps": 0.0,
+    "average_latency": NaN,
+    "throughput": NaN
+  },
+  "resource_summary": {
+    "cpu_usage": 0,
+    "memory_usage": 0,
+    "gpu_usage": 0
+  },
+  "model_summary": {
+    "teacher_model": {
+      "average_score": 0.88357704094437
+    },
+    "learner_model": {
+      "average_score": 0.8674485402705863
+    }
+  }
+}
